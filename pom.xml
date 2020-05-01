@@ -5,6 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>eureka</module>
+		<module>system</module>
 	</modules>
 	<!--父模块是springboot项目-->
 	<parent>
