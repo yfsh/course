@@ -6,7 +6,8 @@
 	<modules>
 		<module>eureka</module>
 		<module>system</module>
-	</modules>
+        <module>gateway</module>
+    </modules>
 	<!--父模块是springboot项目-->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
