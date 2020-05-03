@@ -23,15 +23,15 @@
 
         <!--数据库连接-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/courseimooc"
-                        userId="courseimooc"
-                        password="courseimooc">
+                        connectionURL="jdbc:mysql://localhost:3306/courseyfsh"
+                        userId="courseyfsh"
+                        password="courseyfsh">
         </jdbcConnection>
 
         <!--下面几段是生成文件的路径-->
         <!-- domain类的位置 -->
         <javaModelGenerator targetProject="src\main\java"
-                            targetPackage="com.course.server.domain"/>
+                            targetPackage="com.yfsh.server.domain"/>
 
         <!-- mapper xml的位置 -->
         <sqlMapGenerator targetProject="src\main\resources"
@@ -39,7 +39,7 @@
 
         <!-- mapper类的位置 -->
         <javaClientGenerator targetProject="src\main\java"
-                             targetPackage="com.course.server.mapper"
+                             targetPackage="com.yfsh.server.mapper"
                              type="XMLMAPPER" /><!--XMLMAPPER生成的SQL全部在XML中-->
 
         <!--表，用来生成test的表-->
