@@ -1,7 +1,7 @@
 package com.yfsh.system.controller;
 
-import com.yfsh.system.domain.Test;
-import com.yfsh.system.service.TestService;
+import com.yfsh.server.domain.Test;
+import com.yfsh.server.service.TestService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

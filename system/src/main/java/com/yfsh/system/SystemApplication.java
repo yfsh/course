@@ -13,7 +13,7 @@ import org.springframework.core.env.Environment;
 //带有下面几种常见注解会被扫描到：@Component；@Controller；@RestControllr；@Service
 @ComponentScan("com.yfsh")
 //扫描mybatis的mapper
-@MapperScan("com.yfsh.system.mapper")
+@MapperScan("com.yfsh.server.mapper")
 @EnableEurekaClient
 @SpringBootApplication
 public class SystemApplication {
