@@ -1,4 +1,4 @@
-package com.yfsh.system;
+package com.yfsh.system.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
